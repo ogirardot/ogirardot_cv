@@ -18,7 +18,7 @@
 \firstname{Olivier}
 \familyname{Girardot}
 % \age\{26/12/1986}
-%\address{Appartement 1122, 117 Boulevard Michelet}{44300 Nantes FRANCE}    % optional, remove the line if not wanted
+%\address{}{}    % optional, remove the line if not wanted
 \mobile{+33 6 24 09 17 94 }                    % optional, remove the line if not wanted
 
 %\phone{}                      % optional, remove the line if not wanted
@@ -26,7 +26,7 @@
 \email{Olivier.Girardot@centraliens-nantes.net}                      % optional, remove the line if not wanted
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
 
-\photo[64pt]{PhotoCV.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\photo[64pt]{PhotoCV.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 %\quote{\Large CDD dans le domaine des systèmes d'information}                 % optional, remove the line if not wanted
 
 \nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
@@ -39,13 +39,16 @@
 \maketitle
 
 \section{Certifications}
-\cventry{April 2010}{Sun Certified Java Programmer for Java 1.6 (SCJP 6)}{}{}{}{}  % arguments 3 to 6 are optional
 \cventry{Mai 2010}{Oracle Certified SQL Expert}{}{}{}{}  % arguments 3 to 6 are optional
+\cventry{April 2010}{Sun Certified Java Programmer for Java 1.6 (SCJP 6)}{}{}{}{}  % arguments 3 to 6 are optional
 \section{Work Experience}
 
-\cventry{December~2010}{R\&D software engineer}
+\cventry{December~2010}{R\&D software engineer on Horizon Trader}
 {Horizon Software Inc.}{Paris}{}
-{}
+{As a team of 4 people, we created a new product \emph{Horizon Algo Trading} to execute trader strategies on the financial markets using Complex Event Processing and Scala;\newline \ \ 
+- In charge of the Esper CEP engine integration and teaching its users;\newline \ \
+- Maintaining and improving the Scala scripting engine;
+}
 
 \cventry{May~2010 --~November~2010}{Software Engineer Java/Calypso for CA-CIB }
 {TeamTrade consultant}{Paris}{Calypso Service Center - CA-CIB}
@@ -54,30 +57,47 @@
 - Java technical lead for a team of 4 people;\newline \ \
 - Introduced best practices to the team for coding, testing and documenting.}
 
-\cventry{April~2009 -- March 2010}{Software engineer Java-SWT-Oracle among the Structured Product Solutions development team for the Trading Room}
+\cventry{April~2009 -- March 2010}{Software engineer Java/SWT/Oracle for Structured Product Solutions}
 {Société Générale Bank \& Trust}{Luxembourg}{}
 {
-- Created a framework to monitor, analyse and report batch execcutions;\newline \ \
-- Refactored and improved reliability of the Pricing module using JNI;\newline \ \
-- Rédaction de documentations (\emph{Pricer}), de dossiers d'exploitations pour les équipes de production ainsi que revues de code régulières.
+- Support and maintenance of 3-tier application deployed worldwide using Java Web Start;\newline \ \
+- Created a framework to monitor, analyse and report batch executions;\newline \ \
+- Refactored and improved reliability of the Pricing module using JNI;
 }
 
 \cventry{November~2008 --~April~2009}
-{Operationnal research for the Human Ressources Headquarter of E.D.F. (Electricité de France)}
+{Operational research for the Human Ressources Headquarter of E.D.F. (Electricité de France)}
 {CNE - Junior Enterprise}{Nantes}{}
-{Preliminary research modeling their schedulling problem as a C.S.P. (Constraint Satisfaction Problem) and
- creation of a dedicated Java/Swing software using the OpenSource Constraint solver \textit{Choco}, while being a student.}
+{
+- Preliminary research modeling their schedulling problem as a C.S.P. (Constraint Satisfaction Problem)\newline \ \
+- Creation of a dedicated Java/Swing software using the OpenSource Constraint solver \textit{Choco}, while being a student.
+}
+                                           
+\cventry{September~2008 --~February~2009}
+{Created a web application for the Ecole Centrale de Nantes Registrar's Office to handle internships}
+{CNE - Junior Enterprise}{Nantes}{}
+{ 
+- Designed of both the normalized database and the application's architecture.\newline \ \
+- Developed the web application using PHP5-Symfony and taught the final users SQL and how to use B.I.R.T.(Business Intelligence and Reporting Tool) to create BI Reports, while being a student.
+}
+
+%\cventry{April~2008 --~August~2008}
+%{Internship in an Investment Fund modules de tracé graphique de cotations en environnement Java-Eclipse RCP}
+%{Cacia}{Paris}{}{ 
+%- State of the art of graphical interfaces on Java\newline \ \
+%- Developed two modules to plot real time market data .}             
+
 
 \section{Education}\cventry{2006 --~2009}{Ecole Centrale de Nantes (ECN)}{Top French engineering school - equivalent to a Master's degree}{Major: Computer Science}{ Minor : Market and Corporate Finance}{}  % arguments 3 to 6 are optional
 \cventry{2004 --~2006}{Lycée Lakanal}{Classe préparatoire}{}{Sceaux}{Filière MP - Specialised in mathematics and physics}  % arguments 3 to 6 are optional
-\cventry{June 2004}{Baccalauréat S, French equivalent to a A Level in Science.}{}{}{}{Major in Maths}
+\cventry{June 2004}{Baccalauréat S, French equivalent to a A Level in Science.}{}{}{}{}
 
 \section{Languages}
 \cvcomputer{French}{Mothertongue}{English}{Fluent, TOEIC Score : 940}
 \cvcomputer{Spanish}{Good level}{Japanese}{Begginer}{}{}
 \section{Skills}
 \cvitem{Software Prog.}{\small{Java (SWT, AWT/Swing), Python (PySide, SQLAlchemy), Scala}}
-\cvitem{Web Prog.}{ \small{Python + Django, JEE + Spring + Hibernate, Javascript (Mootools)}}
+\cvitem{Web Prog.}{ \small{Python + Django, Javascript (Mootools)}}
 \cvitem{Op. Systems}{ \small{Linux, MacOs, Windows}}
 \cvitem{J2EE App. Servers}{ \small{Tomcat, JBoss, Glassfish}}
 \cvitem{DBMS}{\small{Oracle, Sybase, PostgreSQL, MySQL, Cassandra}}
@@ -88,9 +108,9 @@
 \section{Activities and interests}
 \cvcomputer{Sports}{Judo, Jujitsu}{}{}
 \cvitem{Community Involment}{Writer and in charge of the Python section for \emph{Developpez.com}.}
-\cvitem{}{Few OpenSource contributions on \emph{Virgo RT}, \emph{OpenOffice.org}.}
+\cvitem{}{Few OpenSource contributions on \emph{Virgo RT}, \emph{OpenOffice.org} and on \emph{Hack for Japan} initiatives.}
 \cvitem{}{Founder of \emph{Incidents-transports.com} - community website and plateform to report problems on public transportations.}
-\cvitem{}{Initiated a community to translate Mark Pilgrim's book \emph{Dive Into Python 3} in French.}
+\cvitem{}{Initiated a community project to translate Mark Pilgrim's book \emph{Dive Into Python 3} in French.}
 %\section{Publications}
 %\cvline{2008}{\textit{Olivier Girardot \& Jonathan Winandy}, Structures hiérarchiques pour PostgreSQL 8.2}
 \closesection{}                   % needed to renewcommands
