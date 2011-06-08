@@ -12,7 +12,7 @@
 \usepackage{hyperref}
 \hypersetup{colorlinks=false}
 
-\recomputelengths                             % required when changes are made to page layout lengths
+%\recomputelengths                             % required when changes are made to page layout lengths
 
 % personal data
 \firstname{Olivier}
@@ -27,7 +27,8 @@
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
 
 %\photo[64pt]{PhotoCV.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
-%\quote{\Large CDD dans le domaine des systèmes d'information}                 % optional, remove the line if not wanted
+%\quote{\Large I'm CEO/CTO/MOTU Bitch}                 % optional, remove the line if not wanted
+
 
 \nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -39,29 +40,29 @@
 \maketitle
 
 \section{Certifications}
-\cventry{Mai 2010}{Oracle Certified SQL Expert}{}{}{}{}  % arguments 3 to 6 are optional
+\cventry{May 2010}{Oracle Certified SQL Expert}{}{}{}{}  % arguments 3 to 6 are optional
 \cventry{April 2010}{Sun Certified Java Programmer for Java 1.6 (SCJP 6)}{}{}{}{}  % arguments 3 to 6 are optional
 \section{Work Experience}
 
 \cventry{December~2010}{R\&D software engineer on Horizon Trader}
 {Horizon Software Inc.}{Paris}{}
-{As a team of 4 people, we created a new product \emph{Horizon Algo Trading} to execute trader strategies on the financial markets using Complex Event Processing and Scala;\newline \ \ 
-- In charge of the Esper CEP engine integration and teaching its users;\newline \ \
-- Maintaining and improving the Scala scripting engine;
+{- Co-developed an algorithmic trader based on Complex Event Processing in Scala;\newline \ \ 
+- Integrated the Esper CEP engine and trained its users;\newline \ \
+- Maintained and improved the Scala scripting engine;
 }
 
 \cventry{May~2010 --~November~2010}{Software Engineer Java/Calypso for CA-CIB }
 {TeamTrade consultant}{Paris}{Calypso Service Center - CA-CIB}
 {
-- Support and maintenance of a \emph{Calypso} system handling more than 2000 deals a day;\newline \ \
-- Java technical lead for a team of 4 people;\newline \ \
-- Introduced best practices to the team for coding, testing and documenting.}
+- Supported and maintained the \emph{Calypso} system handling more than 2000 deals a day;\newline \ \
+- Provided technical lead to a team of 4 in JAVA;\newline \ \
+- Instigated best practices in coding, testing and documenting.}
 
 \cventry{April~2009 -- March 2010}{Software engineer Java/SWT/Oracle for Structured Product Solutions}
 {Société Générale Bank \& Trust}{Luxembourg}{}
 {
-- Support and maintenance of 3-tier application deployed worldwide using Java Web Start;\newline \ \
-- Created a framework to monitor, analyse and report batch executions;\newline \ \
+- Supported and maintained a 3-tier application deployed worldwide using Java Web Start;\newline \ \
+- Created a framework for monitoring, analyzing and reporting batch executions;\newline \ \
 - Refactored and improved reliability of the Pricing module using JNI;
 }
 
@@ -69,23 +70,23 @@
 {Operational research for the Human Ressources Headquarter of E.D.F. (Electricité de France)}
 {CNE - Junior Enterprise}{Nantes}{}
 {
-- Preliminary research modeling their schedulling problem as a C.S.P. (Constraint Satisfaction Problem)\newline \ \
-- Creation of a dedicated Java/Swing software using the OpenSource Constraint solver \textit{Choco}, while being a student.
+- Modeled a scheduling problem as a Constraint Satisfaction Problem\newline \ \
+- Created a Java/Swing application using \textit{Choco} constraint solver.
 }
-                                           
+
 \cventry{September~2008 --~February~2009}
 {Created a web application for the Ecole Centrale de Nantes Registrar's Office to handle internships}
 {CNE - Junior Enterprise}{Nantes}{}
 { 
-- Designed of both the normalized database and the application's architecture.\newline \ \
-- Developed the web application using PHP5-Symfony and taught the final users SQL and how to use B.I.R.T.(Business Intelligence and Reporting Tool) to create BI Reports, while being a student.
+- Designed the normalized database and the application's architecture.\newline \ \
+- Developed the web application using PHP5-Symfony, trained the final users to SQL and B.I.R.T.(Business Intelligence and Reporting Tool).
 }
 
-%\cventry{April~2008 --~August~2008}
-%{Internship in an Investment Fund modules de tracé graphique de cotations en environnement Java-Eclipse RCP}
-%{Cacia}{Paris}{}{ 
-%- State of the art of graphical interfaces on Java\newline \ \
-%- Developed two modules to plot real time market data .}             
+\cventry{April~2008 --~August~2008}
+{Created for an investment fund real-time plotting modules for financial market quotes using Java-Eclipse RCP}
+{Cacia}{Paris}{}{ 
+- Studied and evaluated the state of the art in graphical interfaces on Java\newline \ \
+- Developed two modules to plot real time market data.}
 
 
 \section{Education}\cventry{2006 --~2009}{Ecole Centrale de Nantes (ECN)}{Top French engineering school - equivalent to a Master's degree}{Major: Computer Science}{ Minor : Market and Corporate Finance}{}  % arguments 3 to 6 are optional
@@ -107,12 +108,10 @@
 
 \section{Activities and interests}
 \cvcomputer{Sports}{Judo, Jujitsu}{}{}
-\cvitem{Community Involment}{Writer and in charge of the Python section for \emph{Developpez.com}.}
-\cvitem{}{Few OpenSource contributions on \emph{Virgo RT}, \emph{OpenOffice.org} and on \emph{Hack for Japan} initiatives.}
-\cvitem{}{Founder of \emph{Incidents-transports.com} - community website and plateform to report problems on public transportations.}
-\cvitem{}{Initiated a community project to translate Mark Pilgrim's book \emph{Dive Into Python 3} in French.}
-%\section{Publications}
-%\cvline{2008}{\textit{Olivier Girardot \& Jonathan Winandy}, Structures hiérarchiques pour PostgreSQL 8.2}
+\cvitem{Community Involment}{In charge of the Python section for \emph{Developpez.com}.}
+\cvitem{}{Contributed to \emph{Virgo RT}, \emph{OpenOffice.org} and to \emph{Hack for Japan} open source initiatives.}
+\cvitem{}{Founder of \emph{Incidents-transports.com} - a community website and plateform for reporting traffic anomalies in Paris' public transportation system.}
+\cvitem{}{Initiated a community project to translate Mark Pilgrim's \emph{Dive Into Python 3} to French.}
 \closesection{}                   % needed to renewcommands
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
 \end{document}
