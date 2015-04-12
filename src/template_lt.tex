@@ -1,0 +1,124 @@
+\documentclass[11pt,a4paper]{moderncv}
+\usepackage{graphicx}
+% moderncv themes
+\moderncvtheme[green]{casual}                 
+
+
+% character encoding
+%\usepackage[t1]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.88]{geometry}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
+
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Olivier}
+\familyname{Girardot}
+% \age\{26/12/1986}
+%\address{Appartement 1122, 117 Boulevard Michelet}{44300 Nantes FRANCE}    % optional, remove the line if not wanted
+%\mobile{+33 6 24 09 17 94 }                    % optional, remove the line if not wanted
+
+%\phone{}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+%\email{o.girardot@lateral-thoughts.com}
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+
+\photo[64pt]{PhotoCV.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\includegraphics{logoLT.png}
+%\quote{\Large CDD dans le domaine des systèmes d'information}                 % optional, remove the line if not wanted
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Certifications }
+\cventry{Juin 2014}{Apache Spark Certified Developer}{}{}{}{}  % arguments 3 to 6 are optional
+\cventry{Avril 2010}{Sun Certified Java Programmer pour Java 1.6 (SCJP 6)}{}{}{}{}  % arguments 3 to 6 are optional
+\cventry{Mai 2010}{Oracle Certified SQL Expert}{}{}{}{}  % arguments 3 to 6 are optional
+
+\section{Formateur}
+\cvitem{Hopwork/LT}{Introductions à Apache Spark, Elasticsearch, Ansible, MongoDB}
+
+\section{Expériences}    
+\cventry{Avril~2014}{Consultant Devops - Fabric/Docker}
+{}{Paris}{Evaneos.com}
+{Industrialisation de la production, des releases et des déploiements en s'appuyant sur Docker}
+
+\cventry{Février~2012}{Consultant Java/Scala - Application de mise-à-jour à distance}
+{}{Issy-les-Moulineaux}{VIDAL}
+{
+Projets PMSI : développement de la fouille de texte pour la recherche de pathologies et de moteurs de contrôle statistiques et de recommandation;\newline \ \
+- Développements en Java/Scala sur une application de gestion de mise-à-jour différentielle à distance:\newline \ \
+- Mise en place de modules de reporting et de gestion à distance du parc de machines;\newline \ \
+- Sécurisation du système de mise-à-jour à distance.}
+
+\cventry{Septembre~2010 --~Septembre~2011}{Co-fondateur et Directeur technique d'APPARTINFO }
+{}{Paris}{APPARTINFO}
+{Création, développement et architecture d'APPARTINFO:\newline \ \
+- Développement en Python et mise en place des architectures de recherche et NoSQL pour les différents besoins métier;\newline \ \
+- Mise en place complète des environnements de production, et d'integration continue;\newline \ \
+- Gestion complète du projet, des prestataires et des finances.}
+
+\cventry{Novembre~2010 --~Septembre~2011}{Ingénieur R\&D en Algo-Trading pour Horizon Software }
+{}{Paris}{Horizon Software}
+{Création, développement et architecture de la plateforme d'algo-trading - Horizon Algo Trader :\newline \ \
+- Développement en Java 1.6 et Scala au sein d'une équipe de 6 personnes;\newline \ \
+- Référent technique sur la partie monitoring et Complex Event Processing (Esper) ;\newline \ \
+- Référent technique sur Git.}
+
+\cventry{Mai~2010 --~Novembre~2010}{Analyste développeur Java/Calypso pour CA-CIB }
+{Consultant TeamTrade}{Paris}{en mission au Centre de Service Calypso - CA-CIB}
+{Développements, améliorations et support de production de l'application \emph{CalypsoBONDS} gérant plus de 2000 transactions par jours pour le Back Office Fixed Income de \emph{Crédit Agricole Corporate and Investment Bank} (CA-CIB) :\newline \ \
+- Développement en Java 1.5 autour du progiciel \emph{Calypso} ;\newline \ \
+- Référent Java (concurrence, support, architecture) de l'équipe ;\newline \ \
+- Mise en place de bonnes pratiques et de documentations.}
+
+\cventry{Avril~2009 -- Mars 2010}{Analyste développeur Java-SWT-Oracle pour l'équipe de gestion des produits structurés de la salle des marchés}
+{Société Générale Bank \& Trust}{Luxembourg}{département DSI/SDM}
+{Développements pour l'application PMT de gestion des produits structurés (Gestion du cycle de vie, aide à la décision et suivi) avec comme missions :\newline \ \
+- Mise en place d'un framework pour les différents batchs permettant un monitoring des lançements;\newline \ \
+- Maintenance et refonte avec Spring 3 d'un module de pricing interfaçant Java/C++ ;\newline \ \
+- Rédaction de documentations (\emph{Pricer}), de dossiers d'exploitations pour les équipes de production ainsi que revues de code régulières.
+}
+
+\cventry{Novembre~2007 --~Février~2008}
+{Chef de projet de conception du site internet de MASE Atlantique}
+{MASE Atlantique (Junior Entreprise)}{Nantes}{}
+{ Accompagnement de la conception et de l'architecture du site internet en lien avec le client. Ainsi que recrutement et maître d'oeuvre 
+pour les deux développeurs travaillant sur le projet. Mise en place de l'hébergement et déclaration à la C.N.I.L.}
+
+\section{Education}\cventry{Septembre~2006 -Novembre~2009}{Ecole Centrale de Nantes (ECN)}{école d'ingénieurs généralistes}{Option Disciplinaire : Informatique}{ Option Professionnelle : Finance de marché et d'entreprise}{}  % arguments 3 to 6 are optional
+\cventry{Septembre~2004 --~Juin~2006}{Lycée Lakanal}{Classe préparatoire}{}{Sceaux}{Filière MP}  % arguments 3 to 6 are optional
+
+\section{Langues}
+\cvcomputer{Français}{Langue maternelle }{Anglais}{Courant, Score TOEIC : 940}
+\cvcomputer{Espagnol}{Bon niveau}{Japonais}{Bon niveau}{}{}
+
+\section{Compétences informatiques}
+\cvitem{Software Prog.}{\small{Scala, Java, Python, C/C++}}
+\cvitem{Web Prog.}{ \small{Scala + Play!, Python + Django, J2EE + Spring + Hibernate, Javascript (Angular/JQuery/Bootstrap)}}
+\cvitem{Op. Sytèmes}{ \small{Linux~(+Debian/), Windows}}
+\cvitem{SGBD}{\small{Oracle, PostgreSQL, MySQL}}
+\cvitem{Moteurs de Recherche}{\small{Lucène, Solr, ElasticSearch}}
+\cvitem{NoSQL}{\small{Redis, CouchDB, Cassandra, MongoDB, Neo4J}}
+\cvitem{Outils}{\small{Git, Maven, SBT, IDEA, IPython, Ansible, Fabric}}
+
+\section{Intérets}
+\cvcomputer{Sports}{Judo, Jiujitsu}{}{}
+\cvitem{Contributions}{Rédacteur Python sur \emph{Developpez.com}.}
+\cvitem{}{Plusieurs librairies OpenSource (Django, Scala) sur GitHub.}
+\cvitem{}{Screencasts O'Reilly sur Apache Spark.}
+
+%\section{Formateur}
+%\cvline{2008}{\textit{Olivier Girardot}, Structures hiérarchiques pour PostgreSQL 8.2}
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+\end{document}

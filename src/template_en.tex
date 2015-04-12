@@ -24,12 +24,10 @@
 
 %\phone{}                      % optional, remove the line if not wanted
 %\fax{fax (optional)}                          % optional, remove the line if not wanted
-\email{ogirardot@appartinfo.com}                      % optional, remove the line if not wanted
+\email{o.girardot@lateral-thoughts.com}                      % optional, remove the line if not wanted
 %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
 
-%\photo[64pt]{PhotoCV.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file optional, remove the line if not wanted
-\quote{\Large Objective: Full time position as Software Engineer}                 % optional, remove the line if not wanted
-
+\photo[64pt]{hw_portrait02.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 
 \nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -45,9 +43,22 @@
 \cventry{April 2010}{Sun Certified Java Programmer for Java 1.6 (SCJP 6)}{}{}{}{}  % arguments 3 to 6 are optional
 
 \section{Work Experience}
-\cventry{December~2010}{R\&D software engineer on Horizon Trader}
+\cventry{April~2011}{Software engineer Scala/Java}
+{}{Paris}{VIDAL}
+{I worked within the team in charge of all software/web-based products of VIDAL, the leading french drug database, mainly on two different type of products:\newline \ \
+- in Scala on a software in charge of remotely updating the drug databases-based products;\newline \ \
+- in Java/Spring and Javascript on the web-based plateforms and APIs.}
+
+\cventry{Septembre~2010 --~May~2013}{Co-founder and CTO of APPARTINFO }
+{}{Paris}{APPARTINFO}
+{Created, developped and designed APPARTINFO.com:\newline \ \
+- in Python/Django, i designed the whole CQRS based architecture using PostgreSQL and NoSQL solutions for specific business needs;\newline \ \
+- Completely set-up production environment, continuous integration and deployment infrastructure;\newline \ \
+- Managed the whole project from finances to hiring staff.}
+
+\cventry{Novembre~2010 --~Septembre~2011}{R\&D software engineer on Horizon Trader}
 {Horizon Software Inc.}{Paris}{}
-{- Co-developed an algorithmic trading plateform based on Complex Event Processing in Scala\newline \ \ 
+{- Co-developed an algorithmic trading plateform in Scala based on Complex Event Processing\newline \ \ 
 - Integrated the Esper CEP engine and trained its users\newline \ \
 - Maintained and improved the Scala scripting engine
 }
@@ -67,22 +78,6 @@
 - Refactored and improved reliability of the Pricing module using JNI
 }
 
-\cventry{November~2008 --~April~2009}
-{Operational research for the Human Ressources Headquarter of E.D.F. (Electricité de France)}
-{CNE - Junior Enterprise}{Nantes}{}
-{
-- Modeled a scheduling problem as a Constraint Satisfaction Problem\newline \ \
-- Created a Java/Swing application using \textit{Choco} constraint solver
-}
-
-\cventry{September~2008 --~February~2009}
-{Created a web application for the Ecole Centrale de Nantes Registrar's Office to handle internships}
-{CNE - Junior Enterprise}{Nantes}{}
-{ 
-- Designed the normalized database and the application's architecture\newline \ \
-- Developed the web application using PHP5-Symfony, trained the final users to SQL and B.I.R.T.(Business Intelligence and Reporting Tool)
-}
-
 \cventry{April~2008 --~August~2008}
 {Created for an investment fund real-time plotting modules for financial market quotes using Java-Eclipse RCP}
 {Cacia}{Paris}{}{ 
@@ -100,20 +95,18 @@
 
 \section{Skills}
 \cvitem{Software Prog.}{\small{Java (SWT, AWT/Swing), Python (PySide, SQLAlchemy), Scala}}
-\cvitem{Web Prog.}{ \small{Python + Django, Javascript (Mootools)}}
-\cvitem{Op. Systems}{ \small{Linux, MacOs, Windows}}
-\cvitem{J2EE App. Servers}{ \small{Tomcat, JBoss, Glassfish}}
-\cvitem{DBMS}{\small{Oracle, Sybase, PostgreSQL, MySQL, Cassandra}}
-\cvitem{Software}{\small{OpenOffice, Microsoft Office}}
+\cvitem{Web Prog.}{ \small{Python + Django, JEE + Spring + Hibernate, Javascript (JQuery, Mootools)}}
+\cvitem{Op. Sytems}{ \small{Linux~(+Ubuntu/Debian/RedHat), Solaris, Windows}}
+\cvitem{JEE App. Servers}{ \small{Tomcat, JBoss, Glassfish}}
+\cvitem{RDBMS}{\small{Oracle, Sybase, PostgreSQL, MySQL}}
+\cvitem{NoSQL}{\small{Redis, Solr, Elasticsearch} (used in production), \small{CouchDB, Cassandra, MongoDB, Neo4J} (POCs)}
 \cvitem{Tools}{\small{Git, Mercurial, Maven, Ant, Sbt, IDEA/Eclipse, Esper CEP engine}}
 %\cvcomputer{Outils spécifiques}{Apache2, openSSH, Subversion, Trac}{}{Eclipse,   Inkscape, MatLab, Putty, Umbrello, PowerDesigner, \LaTeX}
 
 \section{Activities and interests}
 \cvcomputer{Sports}{Judo, Jujitsu}{}{}
-\cvitem{Community Involment}{In charge of the Python section for \emph{Developpez.com}}
-\cvitem{}{Contributed to \emph{Virgo RT}, \emph{OpenOffice.org} and to \emph{Hack for Japan} open source initiatives}
+\cvitem{Community Involment}{Contributed to \emph{Virgo RT}, \emph{OpenOffice.org} and to \emph{Hack for Japan} open source initiatives}
 \cvitem{}{Founder of \emph{Incidents-transports.com} - a community website and plateform for reporting traffic anomalies in Paris' public transportation system}
-\cvitem{}{Initiated and managed a community project to translate Mark Pilgrim's \emph{Dive Into Python 3} to French}
 \closesection{}                   % needed to renewcommands
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
 \end{document}
